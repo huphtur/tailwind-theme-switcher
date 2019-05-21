@@ -1,8 +1,10 @@
-# Tailwind Theme Switchers
+# Tailwind Theme Switcher
 
 Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes. 
 
-This is a combo of Adam Wathan's [Theming Tailwind Demo](https://github.com/adamwathan/theming-tailwind-demo) and Katie Ball's [Quick switch Themes with javascript](https://gist.github.com/roachhd/698db516c17bb130c495/).
+Live preview: https://wonderful-minsky-9a45cf.netlify.com/
+
+This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/adamwathan/theming-tailwind-demo), [Tailwind CSS Playground](https://github.com/tailwindcss/playground), and Katie Ball's [Quick switch Themes with javascript](https://gist.github.com/roachhd/698db516c17bb130c495/).
 
 ## To get started
 

@@ -1,4 +1,4 @@
-# Tailwind Theme Switcher
+# Tailwind Dark Mode Theme Switcher
 
 Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes. 
 

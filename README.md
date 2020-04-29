@@ -40,7 +40,9 @@ This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/ada
 
 ## Building for production
 
-Both [Purgecss](https://www.purgecss.com/) and [cssnano](https://cssnano.co/) are included to optimize your CSS for production. 
+Both ~~[Purgecss](https://www.purgecss.com/)~~ and [cssnano](https://cssnano.co/) are included to optimize your CSS for production.
+
+PureCSS is now [handled by Tailwind](https://github.com/tailwindcss/tailwindcss/pull/1639)!
 
 To build an optimized version of your CSS, simply run:
 

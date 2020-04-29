@@ -7,17 +7,16 @@
   },
   "name": "tailwind-theme-switcher",
   "version": "1.0.0",
-  "repository": "https://github.com/tailwindcss/playground",
+  "repository": "https://github.com/huphtur/tailwind-theme-switcher",
   "author": "M. Appelman <huphtur@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "autoprefixer": "^9.7.4",
-    "concurrently": "^5.1.0",
-    "cross-env": "^7.0.0",
+    "autoprefixer": "^9.7.6",
+    "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0"
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.0"
   }
 }

@@ -23,7 +23,7 @@
   --rounded-btn: 0.25rem;
 }
 
-/*! purgecss start ignore */
+/** purgecss start ignore */
 .theme-dark {
   --color-bg-primary: #c0b283;
   --color-bg-secondary: #dcd0c0;
@@ -48,7 +48,7 @@
 
   --rounded-btn: 0;
 }
-/*! purgecss end ignore */
+/** purgecss end ignore */
 
 @tailwind components;
 @tailwind utilities;

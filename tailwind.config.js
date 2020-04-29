@@ -1,4 +1,8 @@
 module.exports = {
+  purge: {
+    mode: 'all',
+    content: ['./public/**/*.html'],
+  },  
   theme: {
     colors: {},
     textColor: {

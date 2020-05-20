@@ -13,8 +13,8 @@
   --color-text-inverse: #444;
   --color-text-inverse-soft: #999;
 
-  --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   --font-weight-normal: 400;
   --font-weight-display: 400;
@@ -37,10 +37,10 @@
   --color-text-inverse: #fff;
   --color-text-inverse-soft: #bbb;
 
-  --font-display: Georgia, Times, "Times New Roman", serif;
-  --font-body: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-    "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana,
-    "Verdana Ref", sans-serif;
+  --font-display: Georgia, Times, 'Times New Roman', serif;
+  --font-body: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans',
+    'DejaVu Sans', 'Bitstream Vera Sans', 'Liberation Sans', Verdana,
+    'Verdana Ref', sans-serif;
 
   --font-weight-normal: 400;
   --font-weight-display: 400;
@@ -52,4 +52,3 @@
 
 @tailwind components;
 @tailwind utilities;
-

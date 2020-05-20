@@ -1,30 +1,46 @@
-<!doctype html>
-<html lang="en" class="bg-inverse">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="stylesheet" href="build/styles.css">
-  <title>Tailwind Theme Switcher</title>
-</head>
-<body>
-  <div class="font-body">
-    <div class="container mx-auto px-4">
-      <div class="py-16 text-center">
-        <div class="mb-6">
-          <h1 class="font-display text-inverse font-light text-5xl mb-4">Tailwind Theme Switcher</h1>
-          <p class="font-normal text-inverse-soft text-2xl">With localStorage to remember theme setting</p>
-        </div>
-        <div>
-          <button type="button" class="theme-btn font-body rounded-btn text-xl font-medium bg-primary hover:bg-secondary text-primary hover:text-secondary px-6 py-3">Swap Theme</button>
-        </div>
-        <div class="mt-8">
-          <a class="text-inverse-soft hover:text-inverse hover:underline" href="https://github.com/huphtur/Tailwind-Theme-Switcher">View on GitHub</a>
+<!DOCTYPE html>
+<html class="bg-inverse" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link type="image/png" href="/favicon-32x32.png" rel="icon" sizes="32x32" />
+    <link type="image/png" href="/favicon-16x16.png" rel="icon" sizes="16x16" />
+    <link href="build/styles.css" rel="stylesheet" />
+    <title>Tailwind Theme Switcher</title>
+  </head>
+  <body>
+    <div class="font-body">
+      <div class="container px-4 mx-auto">
+        <div class="py-16 text-center">
+          <div class="mb-6">
+            <h1 class="font-display text-inverse mb-4 text-5xl font-light">
+              Tailwind Theme Switcher
+            </h1>
+            <p class="text-inverse-soft text-2xl font-normal">
+              With localStorage to remember theme setting
+            </p>
+          </div>
+          <div>
+            <button
+              class="theme-btn font-body rounded-btn bg-primary hover:bg-secondary text-primary hover:text-secondary px-6 py-3 text-xl font-medium"
+              type="button"
+            >
+              Swap Theme
+            </button>
+          </div>
+          <div class="mt-8">
+            <a
+              class="text-inverse-soft hover:text-inverse hover:underline"
+              href="https://github.com/huphtur/Tailwind-Theme-Switcher"
+              >View on GitHub</a
+            >
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>

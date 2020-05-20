@@ -1,22 +1,23 @@
 {
-  "private": true,
   "scripts": {
     "serve": "cross-env NODE_ENV=development concurrently \"postcss public/styles.css -o public/build/styles.css --watch\"  \"live-server ./public\"",
     "development": "cross-env NODE_ENV=development postcss public/styles.css -o public/build/styles.css",
     "production": "cross-env NODE_ENV=production postcss public/styles.css -o public/build/styles.css"
   },
   "name": "tailwind-theme-switcher",
-  "version": "1.0.0",
   "repository": "https://github.com/huphtur/tailwind-theme-switcher",
   "author": "M. Appelman <huphtur@gmail.com>",
   "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^9.8.0",
     "concurrently": "^5.2.0",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.0"
+    "tailwindcss": "^1.4.6"
   }
 }

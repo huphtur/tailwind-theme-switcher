@@ -1,6 +1,6 @@
 // Toggle Dark Theme
 var d = document.documentElement,
-  t = document.querySelectorAll('.theme-btn')[0],
+  t = document.querySelector('#theme-btn'),
   m = localStorage.getItem('theme');
 
 if (m == 'dark') {

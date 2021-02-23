@@ -17,7 +17,7 @@
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^7.1.1",
+    "postcss-cli": "^8.3.1",
     "tailwindcss": "^1.6.1"
   }
 }

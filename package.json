@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "concurrently": "^5.2.0",
+    "concurrently": "^6.0.1",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",

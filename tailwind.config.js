@@ -1,7 +1,7 @@
 module.exports = {
-  mode: 'jit',
   purge: {
-    content: ['./public/**/*.html','./safelist.txt'],
+    mode: 'all',
+    content: ['./public/**/*.html'],
   },
   theme: {
     colors: {},

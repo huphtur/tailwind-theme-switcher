@@ -1,6 +1,6 @@
 # Tailwind Dark Mode Theme Switcher
 
-Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes.
+Basic demo on how to switch styles with Tailwind, handy for dark mode type purposes. 
 
 Live preview: https://tailwind-theme-switcher.netlify.app/
 
@@ -8,41 +8,39 @@ This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/ada
 
 ## To get started
 
-1. Clone the repository
+1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/huphtur/tailwind-theme-switcher
+    ```bash
+    git clone https://github.com/huphtur/tailwind-theme-switcher
 
-   cd tailwind-theme-switcher
-   ```
+    cd tailwind-theme-switcher
+    ```
 
-2. Install the dependencies
+2. Install the dependencies:
 
-   ```bash
-   # Using npm
-   npm install
+    ```bash
+    # Using npm
+    npm install
 
-   # Using Yarn
-   yarn
-   ```
+    # Using Yarn
+    yarn
+    ```
 
-3. Start the development server
+3. Start the development server:
 
-   ```bash
-   # Using npm
-   npm run serve
+    ```bash
+    # Using npm
+    npm run serve
 
-   # Using Yarn
-   yarn serve
-   ```
+    # Using Yarn
+    yarn serve
+    ```
 
-   Now you should be able to see the project running at localhost:8080
+    Now you should be able to see the project running at localhost:8080
 
 ## Building for production
 
-[cssnano](https://cssnano.co/) is included to optimize your CSS for production. PurgeCSS is handled by Tailwind.
-
-**Important note**: CSS Custom properties are being used in conjuction with [Tailwind JIT](https://blog.tailwindcss.com/just-in-time-the-next-generation-of-tailwind-css), so a safelist.txt file is in place to make sure `theme-dark` class does not get purged.
+[cssnano](https://cssnano.co/) included to optimize your CSS for production. PurgeCSS is [handled by Tailwind](https://github.com/tailwindcss/tailwindcss/pull/1639)!
 
 To build an optimized version of your CSS, simply run:
 

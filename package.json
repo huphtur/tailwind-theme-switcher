@@ -18,7 +18,7 @@
     "cssnano": "^5.0.4",
     "live-server": "^1.2.1",
     "postcss": "^8.3.0",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.1.2"
   }
 }

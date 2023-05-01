@@ -1,24 +1,17 @@
 {
-  "scripts": {
-    "serve": "cross-env NODE_ENV=development concurrently \"postcss public/styles.css -o public/build/styles.css --watch\"  \"live-server ./public\"",
-    "development": "cross-env NODE_ENV=development postcss public/styles.css -o public/build/styles.css",
-    "production": "cross-env NODE_ENV=production postcss public/styles.css -o public/build/styles.css"
-  },
   "name": "tailwind-theme-switcher",
+  "description": "Tailwind Dark Mode Theme Switcher",
+  "scripts": {
+    "serve": "rm -rf _site && npx @11ty/eleventy --serve --quiet & npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --watch",
+    "build": "rm -rf _site && ELEVENTY_ENV=production npx @11ty/eleventy && npx tailwindcss -i ./src/tailwind.css -o ./_site/styles.css --minify"
+  },
+  "keywords": [],
   "repository": "https://github.com/huphtur/tailwind-theme-switcher",
   "author": "M. Appelman <huphtur@gmail.com>",
   "license": "MIT",
-  "browserslist": [
-    "defaults"
-  ],
+  "browserslist": "defaults",
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "concurrently": "^6.2.0",
-    "cross-env": "^7.0.3",
-    "cssnano": "^5.0.4",
-    "live-server": "^1.2.1",
-    "postcss": "^8.3.0",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.1.2"
+    "@11ty/eleventy": "^2.0.1",
+    "tailwindcss": "^3.3.2"
   }
 }

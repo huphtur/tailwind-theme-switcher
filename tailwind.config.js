@@ -1,8 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    mode: 'all',
-    content: ['./public/**/*.html'],
-  },
+  content: ['./src/**/*.{html,liquid}'],
   theme: {
     colors: {},
     textColor: {
@@ -33,6 +31,5 @@ module.exports = {
       btn: 'var(--rounded-btn)',
     },
   },
-  variants: {},
   plugins: [],
 };

@@ -1,5 +1,5 @@
-node_modules
-public/build
-yarn.lock
-package-lock.json
+_site/
+.cache
 .DS_Store
+node_modules/
+package-lock.json

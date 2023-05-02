@@ -4,7 +4,7 @@ Basic demo on how to switch styles with Tailwind, handy for dark mode type purpo
 
 Live preview: https://tailwind-theme-switcher.netlify.app/
 
-This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/adamwathan/theming-tailwind-demo), [Tailwind CSS Playground](https://github.com/tailwindcss/playground), and Katie Ball's [Quick switch Themes with javascript](https://gist.github.com/roachhd/698db516c17bb130c495/).
+This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/adamwathan/theming-tailwind-demo), [Hella Simple Eleventy + Tailwind CSS Starter](https://github.com/huphtur/hella-simple-eleventy-tailwind-starter), and Katie Ball's [Quick switch Themes with javascript](https://gist.github.com/roachhd/698db516c17bb130c495/).
 
 ## To get started
 
@@ -40,16 +40,14 @@ This is a mashup of Adam Wathan's [Theming Tailwind Demo](https://github.com/ada
 
 ## Building for production
 
-[cssnano](https://cssnano.co/) included to optimize your CSS for production. PurgeCSS is [handled by Tailwind](https://github.com/tailwindcss/tailwindcss/pull/1639)!
-
 To build an optimized version of your CSS, simply run:
 
 ```bash
 # Using npm
-npm run production
+npm run build
 
 # Using Yarn
-yarn production
+yarn build
 ```
 
-After that's done, check out `./public/build/styles.css` to see the optimized output.
+After that's done, check out `./_site/styles.css` to see the optimized output.

@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html class="bg-inverse overflow-y-scroll" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
-    <meta name="description" content="{% if description %}{{ description }}{% else %}Your site description{% endif %}" />
-    <title>{% if title %}{{ title }}{% else %}Your site title{% endif %}</title>
 
-    <link rel="stylesheet" href="/styles.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+  <meta name="description" content="{% if description %}{{ description }}{% else %}Your site description{% endif %}" />
+  <title>{% if title %}{{ title }}{% else %}Your site title{% endif %}</title>
 
-  <body class="font-body">
-    {{ content }}
+  <link rel="stylesheet" href="/styles.css" />
+</head>
 
-    <script>
-      // Toggle Dark Theme
-      var d = document.documentElement,
-        t = document.querySelector('#theme-btn'),
-        m = localStorage.getItem('theme');
+<body class="font-body">
+  {{ content }}
 
-      if (m == 'dark') {
+  <script>
+    // Toggle Dark Theme
+    var d = document.documentElement,
+      t = document.querySelector('#theme-btn'),
+      m = localStorage.getItem('theme');
+
+    if (m == 'dark') {
+      d.classList.add('theme-dark');
+    }
+
+    t.addEventListener('click', function () {
+      if (d.classList.contains('theme-dark')) {
+        d.classList.remove('theme-dark');
+        localStorage.removeItem('theme');
+      } else {
         d.classList.add('theme-dark');
+        localStorage.setItem('theme', 'dark');
       }
+    });
+  </script>
+</body>
 
-      t.addEventListener('click', function () {
-        if (d.classList.contains('theme-dark')) {
-          d.classList.remove('theme-dark');
-          localStorage.removeItem('theme');
-        } else {
-          d.classList.add('theme-dark');
-          localStorage.setItem('theme', 'dark');
-        }
-      });
-    </script>
-  </body>
 </html>
